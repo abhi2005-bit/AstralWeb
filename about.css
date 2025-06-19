@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: 'https://media.istockphoto.com/id/1485995844/vector/milky-way-and-blue-nebula.jpg?s=612x612&w=0&k=20&c=8KqfIT_mAUCErGzFBG7uxDngtargOR1y5AEERaEe524=';
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, #0c0c0c7d, #121212cb, #060f13cc);
+    color: #fff;
+    line-height: 1.6;
+    background-image: 'https://media.istockphoto.com/id/1485995844/vector/milky-way-and-blue-nebula.jpg?s=612x612&w=0&k=20&c=8KqfIT_mAUCErGzFBG7uxDngtargOR1y5AEERaEe524=';
+}
+
+header {
+    text-align: center;
+    padding: 3rem 1rem 1rem;
+    animation: fadeDown 1s ease-in-out;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.8rem;
+    color: #00ffe5;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-top: 0.5rem;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 3rem;
+    max-width: 1100px;
+    margin: auto;
+    animation: fadeUp 1.2s ease-in-out;
+}
+
+.team-member {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #00ffe5;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+}
+
+.team-member:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 0 25px #00ffe5aa;
+}
+
+.team-member h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #00ffe5;
+}
+
+.team-member h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #aaffff;
+}
+
+.team-member p {
+    font-size: 0.95rem;
+    color: #ddd;
+}
+
+.vision {
+    text-align: center;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: auto;
+    animation: fadeUp 1.5s ease-in-out;
+}
+
+.vision h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #00ffe5;
+}
+
+.vision p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .team-member {
+        padding: 1.5rem;
+    }
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.navbar {
+  background: brgba(10, 10, 10, 0.8);
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(67, 66, 66, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+
+  padding-bottom: 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: auto;
+  
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #606060;
+  text-shadow: 0 0 10px#606060;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.nav-links li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(to right, #707070, #1a1a1a);
+  transition: width 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color:linear-gradient(to right, #707070, #1a1a1a);
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+.nav-prop
+{
+    font-size: 2rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 12px; 
+}
+
+.logo-img {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+  padding-bottom: 20px;
+}
+
+.logo-text {
+  height: 120px;
+  width: 110px;
+  object-fit: contain;
+  padding-bottom: 20px;
+}
