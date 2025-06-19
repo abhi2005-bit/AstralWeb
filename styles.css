@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     min-height: 100vh;
     position: relative;
@@ -717,6 +717,7 @@ h1 {
   list-style: none;
   display: flex;
   gap: 30px;
+  padding-bottom: 30px;
 }
 
 .nav-links li a {
@@ -754,19 +755,15 @@ h1 {
   display: flex;
   align-items: center;
   text-decoration: none;
-  gap: 12px; 
+  gap: 12px;
+  
 }
 
 .logo-img {
-  height: 60px;
-  width: 60px;
+  height: 140px;
+  width: 140px;
   object-fit: contain;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  
 }
 
-.logo-text {
-  height: 120px;
-  width: 110px;
-  object-fit: contain;
-  padding-bottom: 20px;
-}
