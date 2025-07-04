@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astronomical Events 2025</title>
+    <title>Astro Now</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
@@ -13,16 +15,15 @@
     <header>
         <nav class="navbar">
             <div class="nav-container">
-
                 <a href="#" class="logo">
-                    <img src="ChatGPT Image Jun 19, 2025, 11_29_56 PM.png" alt="Logo" class="logo-img">
-                    
+                    <img src="assets/logo.png" alt="Logo" class="logo-img">
                 </a>
                 <ul class="nav-links">
-                     <li><a href="index.html" class="nav-prop">HOME</a></li>
-                    <li><a href="about.html" class="nav-prop">ABOUT US</a></li>
-                    <li><a href="news.HTML" class="nav-prop">NEWS</a></li>
-                    <li><a href="apod.html" class="nav-prop">EVENT OF THE DAY</a></li>
+
+                    <li><a href="#" class="nav-prop">HOME</a></li>
+                   <li><a href="news.HTML" class="nav-prop">NEWS</a></li>
+                   <li><a href="GLOBE.HTML" class="nav-prop">GLOBE</a></li>
+                 <li><a href="about.html" class="nav-prop">ABOUT US</a></li>
                 </ul>
             </div>
         </nav>
@@ -31,6 +32,7 @@
         <div class="video-background">
             <video autoplay muted loop id="myVideo">
                 <source src="1851190-uhd_3840_2160_25fps.mp4" type="video/mp4">
+
             </video>
         </div>
     </header>
@@ -38,10 +40,6 @@
     <main class="content">
         <div class="content-wrapper">
             <div class="left-panel">
-                <div class="date-selector">
-                    <label for="date">Select a Date:</label>
-                    <input type="date" id="date" min="2025-01-01" max="2025-12-31">
-                </div>
                 <h1 class="main-title">Astronomical Events 2025</h1>
                 <div class="events-container">
                     <div class="month-box">
@@ -63,6 +61,10 @@
                 </div>
             </div>
             <div class="right-panel">
+                <div class="date-selector">
+                    <label for="date">Select a Date:</label>
+                    <input type="date" id="date" min="2025-01-01" max="2025-12-31">
+                </div>
                 <div id="nasa-image" class="nasa-content">
                     <div class="initial-message">
                         Select a date to see NASA's Astronomy Picture of the Day
@@ -78,6 +80,36 @@
             </div>
         </div>
     </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="news.HTML">News</a></li>
+                    <li><a href="GLOBE.HTML">Globe</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Our Mission</h3>
+                <p class="mission-text">Exploring the cosmos, one event at a time. We bring you the latest astronomical events, celestial phenomena, and space discoveries to inspire wonder and curiosity about our universe.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Astronomical Events. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
     <script src="comet-cursor.js"></script>
