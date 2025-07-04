@@ -52,7 +52,7 @@ function astroRefraction(h) {
     return 0.0002967 / Math.tan(h + 0.00312536 / (h + 0.08901179));
 }
 
-// general sun calculations
+
 
 function solarMeanAnomaly(d) { return rad * (357.5291 + 0.98560028 * d); }
 

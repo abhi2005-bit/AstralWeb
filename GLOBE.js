@@ -65,7 +65,7 @@ const sunLight = new THREE.DirectionalLight(0xffffff, 1);
 sunLight.position.set(100, 10, 0);
 scene.add(sunLight);
 
-// Marker management
+
 const markers = new Map();
 
 function addMarker(lat, lng, name, type = 'observatory') {
