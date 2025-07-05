@@ -18,16 +18,16 @@
 ## Screenshots
 
 ### Homepage  
-![Homepage](AstralWeb-main/assets/homepage.png)
+![Homepage](assets/homepage.png)
 
 ### Historical Events
-![Historical Events](AstralWeb-main/assets/HistoricEvents.png)
+![Historical Events](assets/HistoricEvents.png)
 
 ### Astronomical News
-![Astronomical News](AstralWeb-main/assets/Screenshot%202025-07-05%20094300.png)
+![Astronomical News](assets/Screenshot%202025-07-05%20094300.png)
 
 ### Globe
-![Globe](AstralWeb-main/assets/Globe.png)
+![Globe](assets/Globe.png)
 
 ## Technologies Used
 
